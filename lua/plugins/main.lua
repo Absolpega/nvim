@@ -1,0 +1,14 @@
+return {
+    { "elkowar/yuck.vim" },
+
+    {
+        "tokyonight.nvim",
+        opts = {
+            transparent = true,
+            styles = {
+                --sidebars = "transparent",
+                --floats = "transparent",
+            },
+        },
+    },
+}
