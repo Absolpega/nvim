@@ -1,4 +1,6 @@
 return {
+    { "echasnovski/mini.pairs", enabled = false },
+
     { "elkowar/yuck.vim" },
 
     {
