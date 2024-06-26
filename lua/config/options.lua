@@ -10,6 +10,9 @@ opt.relativenumber = true
 opt.tabstop = 4
 opt.shiftwidth = 4
 
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
 opt.exrc = true
 
 opt.clipboard = ""

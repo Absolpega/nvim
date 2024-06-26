@@ -32,12 +32,6 @@ return {
         },
     },
 
-    {
-        "theRealCarneiro/hyprland-vim-syntax",
-        dependencies = { "nvim-treesitter/nvim-treesitter" },
-        ft = "hypr",
-    },
-
     { "nyoom-engineering/oxocarbon.nvim" },
 
     {
