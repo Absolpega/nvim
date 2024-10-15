@@ -17,6 +17,12 @@ return {
     { "mattn/emmet-vim" },
 
     {
+        "m4xshen/hardtime.nvim",
+        dependencies = { "MunifTanjim/nui.nvim", "nvim-lua/plenary.nvim" },
+        opts = {},
+    },
+
+    {
         "echasnovski/mini.animate",
         opts = {
             cursor = { enable = not is_neovide },
