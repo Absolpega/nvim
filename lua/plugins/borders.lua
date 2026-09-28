@@ -2,7 +2,7 @@ local plugins = {}
 
 for _, plugin in ipairs({
     "folke/lazy.nvim",
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
 }) do
     table.insert(plugins, {
         plugin,
